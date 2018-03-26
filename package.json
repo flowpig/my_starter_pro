@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@antv/g2": "^3.0.5-beta.5",
     "axios": "^0.18.0",
     "element-ui": "^2.2.1",
     "jquery": "^3.3.1",
