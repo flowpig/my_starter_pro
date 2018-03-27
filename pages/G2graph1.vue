@@ -5,6 +5,7 @@
 </template>
 
 <script>
+  import 'jquery.cookie'
 
   export default {
     mounted () {
@@ -17,6 +18,8 @@
         forceFit: true,
         height: 500
       });
+      $.cookie('pre_data', '123123');
+      console.log($.cookie('pre_data'));
       const data = [
         {genre: 'Sports', sold: 275},
         {genre: 'Strategy', sold: 115},
